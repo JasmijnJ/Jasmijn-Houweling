@@ -53,30 +53,30 @@
 }
 
 /*main*/
-main {
-	padding-left: 56px;
-}
+/*about*/
 .about h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
-	border-bottom: solid 1px red;
+	border-bottom: solid 1px #e71717;
 	display: inline;
 	font-size: 40px;
+	margin-left: 56px;
 }
 
 .about p {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 	padding-top: 25px;
 	width: 65%;
-	font-size: 22px;
+	font-size: 27px;
+	margin-left: 56px;
 }
 
 .about img {
 	width: 290px;
     float: right;
-    margin-top: -210px;
+    margin-top: -260px;
     padding-right: 56px;
 }
 
@@ -84,16 +84,54 @@ main {
 	padding-bottom: 80px;
 }
 
+/*projects*/
 .projects {
 	background-color: #F5F5F5;
+	margin-top: -5px;
 }
 
 .projects h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
-	border-bottom: solid 1px red;
+	border-bottom: solid 1px #e71717;
 	display: inline;
 	font-size: 40px;
+	margin-left: 56px;
 }
+
+/*ixd & technology */
+.ixd {
+	margin-left: 80px;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #e71717;
+	font-size: 52px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.ixd p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	width: 60%;
+	font-size: 27px;	
+}
+
+.mright {
+	width: 180px;
+	height: 479.358px;
+	float: right;
+	margin-top: -200px;
+    padding-right: 56px;
+}
+
+.lleft {
+	width: 559px;
+	height: 301.819px;
+}
+
 
