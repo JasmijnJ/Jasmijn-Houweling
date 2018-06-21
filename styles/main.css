@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*navigation*/ 
+.topnav a{
+  font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0.70952182775769,0,0,0.70952182775769,0,0);
+  -webkit-transform: matrix( 0.70952182775769,0,0,0.70952182775769,0,0);
+  -ms-transform: matrix( 0.70952182775769,0,0,0.70952182775769,0,0);
+  font-weight: 200;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 35px;
+}
+
+.topnav {
+	position: fixed;
+	padding-left: 56px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 0.5px solid #aaaaaa;
+    width: 100%;
+    background-color: white;
+}
+
+/*header*/
+.logo {
+	width: 100px;
+	height: 111px;
+	padding-top: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.personal{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	color: #e71717;
+	font-size: 32px;
+	text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+/*main*/
+main {
+	padding-left: 56px;
+}
+.about h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-bottom: solid 1px red;
+	display: inline;
+	font-size: 40px;
+}
+
+.about p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	padding-top: 25px;
+	width: 65%;
+	font-size: 22px;
+}
+
+.about img {
+	width: 290px;
+    float: right;
+    margin-top: -210px;
+    padding-right: 56px;
+}
+
+.about {
+	padding-bottom: 80px;
+}
+
+.projects {
+	background-color: #F5F5F5;
+}
+
+.projects h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-bottom: solid 1px red;
+	display: inline;
+	font-size: 40px;
+}
+
