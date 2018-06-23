@@ -5,6 +5,11 @@
 	padding: 0;
 }
 
+body {
+	width: 1250px;
+	margin: auto;
+}
+
 /*navigation*/ 
 .topnav a{
   font-size: 28px;
@@ -27,7 +32,7 @@
     padding-top: 25px;
     padding-bottom: 25px;
     border-bottom: 0.5px solid #aaaaaa;
-    width: 100%;
+    width: 1250px;
     background-color: white;
 }
 
@@ -87,10 +92,11 @@
 /*projects*/
 .projects {
 	background-color: #F5F5F5;
+	/*background-color: white;*/
 	margin-top: -5px;
 }
 
-.projects h1 {
+.projects h1, footer h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -102,7 +108,8 @@
 
 /*ixd & technology */
 .ixd {
-	margin-left: 80px;
+	background-color: #F5F5F5;
+	margin-bottom: -1px;
 }
 h2 {
 	font-family: 'Montserrat', sans-serif;
@@ -110,28 +117,180 @@ h2 {
 	text-transform: uppercase;
 	color: #e71717;
 	font-size: 52px;
-	margin-top: 40px;
+	padding-top: 40px;
 	margin-bottom: 30px;
+	margin-left: 80px;
 }
 
-.ixd p {
+.ixdtext {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	width: 60%;
-	font-size: 27px;	
+	font-size: 27px;
+	margin-left: 80px;	
 }
 
 .mright {
 	width: 180px;
 	height: 479.358px;
 	float: right;
-	margin-top: -200px;
+	margin-top: -220px;
     padding-right: 56px;
 }
 
 .lleft {
-	width: 559px;
-	height: 301.819px;
+	width: 630px;
+	height: 340.153px;
+	padding-top: 100px;
+	margin-left: 20px;
+	margin-bottom: 40px;
 }
+
+.right{
+	float: right;
+	margin-right: 56px;
+	margin-top: -150px;
+}
+
+.toolsright {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #e71717;
+	font-size: 25px;
+}
+
+.skills {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 27px;
+}
+
+.prg {
+	background-color: white;
+}
+
+/*project G*/
+.h2right {
+	float: right;
+	margin-right: 80px;
+}
+
+.textright {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	width: 60%;
+	font-size: 27px;
+	margin-right: 80px;
+	float: right;
+	text-align: right;
+}
+
+/*@media only screen and (min-width: 1331px) {
+	.textright {
+		    position: relative;
+    		top: 119px;
+    		left: 459px;
+	}
+	.lright {
+			position: relative;
+		    top: 95px;
+		    left: 436px
+	}
+	.mleft {
+		    position: relative;
+		    top: 37px;	    
+	}
+	.left {
+		position: relative;
+	    
+	    top: -53px;
+	}
+
+}*/
+
+.mleft {
+	width: 180px;
+	height: 479.358px;
+	float: left;
+	margin-top: -110px;
+    padding-left: 56px;
+}
+
+.lright {
+	width: 630px;
+	height: 340.153px;
+	padding-top: 100px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	float: right;
+}
+
+.left {
+	float: left;
+	margin-left: 56px;
+	margin-top: 209px;
+
+}
+
+
+a {
+	text-decoration: none;
+}
+
+/*KWFxOverblijf*/
+.lleftgif {
+	width: 630px;
+	height: 340.153px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-bottom: 40px;
+}
+
+.rightkwf {
+	float: right;
+	margin-right: 56px;
+	margin-top: -194px;
+    width: 241px;
+}
+
+/*companion*/
+.leftc {
+	float: left;
+    margin-left: 56px;
+    margin-top: 92px;
+}
+
+/*footer*/
+
+/*koenst*/ 
+.mleftk {
+	width: 180px;
+	height: 479.358px;
+	float: left;
+	margin-top: -110px;
+    padding-left: 56px;
+}
+
+footer img {
+	width: 50px;
+	
+}
+
+footer a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: black;
+	font-size: 35px;
+
+}
+
+.mail {
+	position: block;
+	padding-left: 56px;
+}
+
 
 
