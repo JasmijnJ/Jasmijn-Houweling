@@ -6,7 +6,7 @@
 }
 
 body {
-	width: 1250px;
+	width: 1264px;
 	margin: auto;
 }
 
@@ -32,11 +32,24 @@ body {
     padding-top: 25px;
     padding-bottom: 25px;
     border-bottom: 0.5px solid #aaaaaa;
-    width: 1250px;
+    width: 1264px;
     background-color: white;
 }
 
+nav img{
+	width: 30px;
+	height: 33.3px;
+	float: right;
+	padding-right: 80px;
+}
+
 /*header*/
+iframe {
+	
+	padding-left: 56px;
+	padding-top: 30px;
+}
+
 .logo {
 	width: 100px;
 	height: 111px;
@@ -186,29 +199,6 @@ h2 {
 	text-align: right;
 }
 
-/*@media only screen and (min-width: 1331px) {
-	.textright {
-		    position: relative;
-    		top: 119px;
-    		left: 459px;
-	}
-	.lright {
-			position: relative;
-		    top: 95px;
-		    left: 436px
-	}
-	.mleft {
-		    position: relative;
-		    top: 37px;	    
-	}
-	.left {
-		position: relative;
-	    
-	    top: -53px;
-	}
-
-}*/
-
 .mleft {
 	width: 180px;
 	height: 479.358px;
@@ -265,14 +255,7 @@ a {
 
 /*footer*/
 
-/*koenst*/ 
-.mleftk {
-	width: 180px;
-	height: 479.358px;
-	float: left;
-	margin-top: -110px;
-    padding-left: 56px;
-}
+
 
 footer img {
 	width: 50px;
@@ -289,7 +272,24 @@ footer a {
 
 .mail {
 	position: block;
-	padding-left: 56px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.mail img{
+	margin-top: 26px;
+    padding-right: 16px;
+}
+
+.social img {
+	padding: 20px;
+	float: right;
+
+}
+
+.social {
+	padding-right: 50px;
+	padding-bottom: 30px;
 }
 
 
