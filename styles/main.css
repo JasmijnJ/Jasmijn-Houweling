@@ -34,6 +34,7 @@ body {
     border-bottom: 0.5px solid #aaaaaa;
     width: 1264px;
     background-color: white;
+    opacity: 0.99;
 }
 
 nav img{
@@ -273,7 +274,7 @@ footer a {
 .mail {
 	position: block;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 .mail img{
